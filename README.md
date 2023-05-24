@@ -31,4 +31,4 @@ Al hacer git pull puede surgir un conflicto, lo resulevo en el Merge Editor indi
 
 -git commit -m *mensaje*
 
-git push
+-git push
