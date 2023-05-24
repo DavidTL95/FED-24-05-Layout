@@ -86,7 +86,19 @@ img{
 }
 
 .botones{
-    background-color: black;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.idiomas{
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.centrarform{
+    width: 10rem;
 }
 
 button{
