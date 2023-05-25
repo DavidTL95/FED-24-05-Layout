@@ -18,7 +18,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/fondo.jpg");
+    background-image: url("../img/fondogrande.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -122,6 +122,10 @@ input{
     display: flex;
     justify-content: right;
     align-items: center;
+}
+
+.iconos svg:hover{  
+    cursor: pointer;
 }
   
 .imagenes{ 
