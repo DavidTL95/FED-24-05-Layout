@@ -134,6 +134,11 @@ input{
     margin: 1%;
     box-shadow: 5px 10px 20px black;
 }
+
+.imagenes img:hover{
+    cursor: pointer;
+    height: 100%;
+}
   
 .barraimagenes{ 
     grid-area: 4 / 14 / 6 / 17; 
@@ -154,6 +159,12 @@ input{
     width: 20%;
     height: 50%;
     border-radius: 10px;
+}
+
+.barraimagenes div:hover{
+    cursor: pointer;
+    width: 25%;
+    height: 55%;
 }
 
 .footer{  
