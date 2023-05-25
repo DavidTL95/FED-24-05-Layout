@@ -161,6 +161,11 @@ input{
 
 .izq a{
     margin-left: 1%;;
+    text-decoration: none;
+}
+
+.izq a:hover{
+    text-decoration: underline;
 }
 
 .footer .der{
