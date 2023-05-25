@@ -1,0 +1,153 @@
+:root{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container {  display: grid;
+    grid-template-columns: 0.5fr 0.9fr 0.8fr 0.6fr repeat(2, 0.7fr) repeat(2, 1fr) 1.4fr 1.1fr 1fr repeat(2, 0.7fr) 1fr 0.8fr 0.5fr;
+    grid-template-rows: 0.3fr repeat(4, 1fr) 0.5fr;
+    justify-content: center;
+    justify-items: stretch;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.logo{
+    grid-area: 1 / 1 / 2 / 3; 
+    display: flex;
+    justify-content: right;
+}
+
+.logomicrosoft{
+    width: 11rem;
+    height: 2rem;
+}
+  
+.imágenes{ 
+    grid-area: 1 / 4 / 2 / 5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.vídeos{
+    grid-area: 1 / 5 / 2 / 6; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+  
+.trespuntos{
+    grid-area: 1 / 6 / 2 / 7; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+svg{
+    width: 2rem;
+    height: 1.5rem;
+}
+  
+.menú{
+    grid-area: 1 / 16 / 2 / 17; 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+  
+.iconorewards{ 
+    grid-area: 1 / 14 / 2 / 16; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.iconoperfil{
+    grid-area: 1 / 12 / 2 / 14; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+  
+.idiomas{ 
+    grid-area: 1 / 11 / 2 / 12; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+  
+.barrabusqueda{ 
+    grid-area: 3 / 5 / 4 / 13; 
+}
+  
+.iconos{  
+    display: grid;
+    grid-area: 3 / 10 / 4 / 13;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 3rem;
+}
+  
+.icono1{ 
+    grid-area: 1 / 3 / 4 / 4; 
+}
+  
+.icono2{ 
+    grid-area: 1 / 2 / 4 / 3; 
+}
+  
+.icono3{ 
+    grid-area: 1 / 1 / 4 / 2; 
+}
+  
+.input{ 
+    grid-area: 3 / 5 / 4 / 10; 
+}
+  
+.footer{  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1.1fr 1fr;
+    grid-area: 6 / 1 / 7 / 17;
+    width: 100vw;
+    height: 5vh;
+    background-color: #333333;
+}
+  
+.imagenes{ 
+    grid-area: 5 / 1 / 6 / 17; 
+}
+  
+.imagen1{ 
+    grid-area: 5 / 2 / 6 / 4; 
+}
+  
+.imagen2{ 
+    grid-area: 5 / 5 / 6 / 8; 
+}
+  
+.imagen3{ 
+    grid-area: 5 / 9 / 6 / 11; 
+}
+  
+.imagen4{ 
+    grid-area: 5 / 12 / 6 / 15; 
+}
+  
+.barraimagenes{ 
+    grid-area: 4 / 14 / 5 / 17; 
+}
+  
