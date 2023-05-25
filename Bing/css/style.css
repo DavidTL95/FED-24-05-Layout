@@ -136,7 +136,24 @@ input{
 }
   
 .barraimagenes{ 
-    grid-area: 4 / 14 / 5 / 17; 
+    grid-area: 4 / 14 / 6 / 17; 
+    width: 100%;
+    height: 20%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barraimagenes div{
+    margin-left: 2%;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
 }
 
 .footer{  
